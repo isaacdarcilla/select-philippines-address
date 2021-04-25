@@ -6,6 +6,8 @@
 - ✨ Installation
 ```
 
+https://www.npmjs.com/package/select-philippines-address
+
 > **npm i select-philippines-address --save**
 
 ```diff
