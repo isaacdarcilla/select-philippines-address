@@ -1,6 +1,5 @@
 const axios = require('axios');
 
-
 // Returns all regions
 // @param NULL
 
@@ -87,7 +86,5 @@ const barangays = async (code) => {
         return e.message;
     }
 };
-
-// barangays('052011').then((barangays) => console.log(barangays));
 
 module.exports = { regions, provinces, cities, barangays };
