@@ -1,0 +1,15 @@
+{
+  "name": "select-philippines-address",
+  "version": "1.0.0",
+  "description": "Select addresses in the Philippines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Isaac D. Arcilla <isaacdarcilla@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
