@@ -2,9 +2,12 @@ import './App.css';
 import {regions} from 'select-philippines-address';
 
 const App = () => {
+    let r = [];
     const region = () => {
-        regions().then((response) => {
-            console.log(response)
+        regions().then(response => {
+            response.map(value => {
+                r.push(value.region_name);
+            })
         });
     }
 
@@ -12,6 +15,9 @@ const App = () => {
         <div className="App">
             <header className="App-header">
                 <button onClick={region}>Press</button>
+                {r.map(value => (
+                    <p>{value.name}</p>
+                ))}
             </header>
         </div>
     );
