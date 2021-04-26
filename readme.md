@@ -3,6 +3,10 @@
 `Select addresses in the Philippines using HTML select tag.`
 
 ```diff
+- ✨ Demo
+```
+
+```diff
 - ✨ Installation
 ```
 
@@ -15,12 +19,12 @@ https://www.npmjs.com/package/select-philippines-address
 ```
 
 ```js
-const { regions, provinces, cities, barangays } = require('select-philippines-address');
+import {regions, provinces, cities, barangays} from 'select-philippines-address';
 
-regions().then((region) => console.log(region)); // returns all regions
-provinces('01').then((province) => console.log(province)); // returns provinces base on region code
-cities('0128').then((city) => console.log(city)); // returns cities base on province code
-barangays('052011').then((barangays) => console.log(barangays)); // returns barangays base on city code
+regions().then((region) => console.log(region));
+provinces('01').then((province) => console.log(province));
+cities('0128').then((city) => console.log(city));
+barangays('052011').then((barangays) => console.log(barangays));
 ```
 
 ```diff
