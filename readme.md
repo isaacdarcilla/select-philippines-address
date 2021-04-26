@@ -23,6 +23,12 @@ cities('0128').then((city) => console.log(city)); // returns cities base on prov
 barangays('052011').then((barangays) => console.log(barangays)); // returns barangays base on city code
 ```
 
+```diff
+- ✨ Screenshot
+```
+
+![](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/react/screenshot/img.png)
+
 ### 🔖 License
 [Apache-2.0](https://github.com/isaacdarcilla/select-philippines-address/blob/master/LICENSE)
 
