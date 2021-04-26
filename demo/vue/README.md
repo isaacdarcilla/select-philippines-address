@@ -1,7 +1,7 @@
 # vue
 
 ## Project setup
-```
+``` 
 yarn install
 ```
 
