@@ -7,8 +7,9 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) [![npm version](https://badge.fury.io/js/select-philippines-address.svg)](https://badge.fury.io/js/select-philippines-address) [![codecov](https://codecov.io/gh/nodejs/undici/branch/main/graph/badge.svg?token=yZL6LtXkOA)](https://codecov.io/gh/nodejs/undici)
 
 ```diff
-- ✨ Demonstration Deployed with Vercel
+- ✨ Demo Deployed with Vercel
 ```
+> React JS
 
 [![Deploy with Vercel](https://vercel.com/button)](https://select-philippines-address.vercel.app/)
 
