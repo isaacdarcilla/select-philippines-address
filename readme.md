@@ -42,7 +42,7 @@ barangays('052011').then((barangays) => console.log(barangays));
 ### 👨‍💻 Source Code.
 
 * [React JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/react)
-* [Vue JS (WIP)]()
+* [Vue JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/vue)
 
 **Please fork or star for support.**
 
