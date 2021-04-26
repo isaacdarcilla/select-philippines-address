@@ -35,6 +35,10 @@ barangays('052011').then((barangays) => console.log(barangays));
 
 ![](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/react/screenshot/img.png)
 
+Refer to this API.
+
+https://isaacdarcilla.github.io/philippine-addresses/
+
 ### 🔖 License
 [Apache-2.0](https://github.com/isaacdarcilla/select-philippines-address/blob/master/LICENSE)
 
