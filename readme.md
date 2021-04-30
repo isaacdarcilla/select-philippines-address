@@ -52,6 +52,7 @@ React JS  | Vue JS
 
 * [React JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/react)
 * [Vue JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/vue)
+* [Svelte JS (WIP)]()
 
 **Please fork or star for support.**
 
