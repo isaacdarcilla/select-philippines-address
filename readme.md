@@ -23,8 +23,6 @@
 
 > **npm i select-philippines-address --save**
 
-https://www.npmjs.com/package/select-philippines-address
-
 ```diff
 - ✨ Usage
 ```
@@ -52,6 +50,10 @@ React JS  | Vue JS
 ![App](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/react/screenshot/1.PNG) | ![App](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/vue/2.PNG)
 
 ![](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/react/screenshot/img.png)
+
+### 🚀 NPM Link
+
+https://www.npmjs.com/package/select-philippines-address
 
 ### 👨‍💻 Source Code.
 
