@@ -1,6 +1,6 @@
 <p align="center"><img src="https://pngimage.net/wp-content/uploads/2018/06/philippine-flag-icon-png-5.png" width="200"></p>
 
-## **select-philippines-address@1.0.2**
+## **select-philippines-address@1.0.5**
 
 `Select addresses in the Philippines using HTML select tag.`
 
@@ -21,9 +21,9 @@
 - ✨ Installation
 ```
 
-https://www.npmjs.com/package/select-philippines-address
-
 > **npm i select-philippines-address --save**
+
+https://www.npmjs.com/package/select-philippines-address
 
 ```diff
 - ✨ Usage
@@ -61,7 +61,7 @@ React JS  | Vue JS
 
 **Please fork or star for support.**
 
-### 🔖 API.
+### 🔗 API.
 
 [Philippines Addresses API](https://isaacdarcilla.github.io/philippine-addresses/)
 
