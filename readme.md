@@ -38,10 +38,10 @@ cities('0128').then((city) => console.log(city));
 barangays('052011').then((barangays) => console.log(barangays));
 ```
 
-```regions()``` - has no parameter which returns all regions.
-```provinces()``` - has 1 parameter region_code which returns provinces in that region.
-```cities()``` - has 1 parameter province_code which returns cities in that province.
-```barangays()``` - has 1 parameter city_code which returns barangays in that city.
+* ```regions()``` - has no parameter which returns all regions.
+* ```provinces()``` - has 1 parameter region_code which returns provinces in that region.
+* ```cities()``` - has 1 parameter province_code which returns cities in that province.
+* ```barangays()``` - has 1 parameter city_code which returns barangays in that city.
 
 ```diff
 - ✨ Screenshot
