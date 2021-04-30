@@ -1,6 +1,6 @@
 {
   "name": "select-philippines-address",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Select addresses in the Philippines.",
   "main": "index.js",
   "homepage": "https://github.com/isaacdarcilla/select-philippines-address",
