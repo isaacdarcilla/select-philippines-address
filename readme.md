@@ -13,7 +13,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://select-philippines-address.vercel.app/)
 
-> Vue Js
+> Vue JS
 
 [![Deploy with Vercel](https://vercel.com/button)](https://select-philippines-address-vue.vercel.app/)
 
