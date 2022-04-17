@@ -21,6 +21,28 @@ const regions = async () => {
     }
 };
 
+// Returns region base on region code parameter.
+// @param REGION CODE
+
+const regionByCode = async (code) => {
+    try {
+        const regions = await axios.get(
+            'https://isaacdarcilla.github.io/philippine-addresses/region.json'
+        );
+        return regions.data.filter(region => region.region_code === code)
+            .map((region) => {
+                return {
+                    id: region.id,
+                    psgc_code: region.psgc_code,
+                    region_name: region.region_name,
+                    region_code: region.region_code
+                };
+        })
+    } catch (e) {
+        return e.message;
+    }
+};
+
 // Returns all provinces base on region code parameter.
 // @param REGION CODE
 
@@ -30,6 +52,50 @@ const provinces = async (code) => {
             'https://isaacdarcilla.github.io/philippine-addresses/province.json'
         );
         return provinces.data.filter(province => province.region_code === code)
+            .map((filtered) => {
+                return {
+                    psgc_code: filtered.psgc_code,
+                    province_name: filtered.province_name,
+                    province_code: filtered.province_code,
+                    region_code: filtered.region_code
+                };
+            });
+    } catch (e) {
+        return e.message;
+    }
+};
+
+// Returns all provinces base on region code parameter.
+// @param REGION CODE
+
+const provincesByCode = async (code) => {
+    try {
+        const provinces = await axios.get(
+            'https://isaacdarcilla.github.io/philippine-addresses/province.json'
+        );
+        return provinces.data.filter(province => province.region_code === code)
+            .map((filtered) => {
+                return {
+                    psgc_code: filtered.psgc_code,
+                    province_name: filtered.province_name,
+                    province_code: filtered.province_code,
+                    region_code: filtered.region_code
+                };
+            });
+    } catch (e) {
+        return e.message;
+    }
+};
+
+// Returns province base on province name parameter.
+// @param PROVINCE NAME
+
+const provinceByName = async (name) => {
+    try {
+        const provinces = await axios.get(
+            'https://isaacdarcilla.github.io/philippine-addresses/province.json'
+        );
+        return provinces.data.filter(province => province.province_name === name)
             .map((filtered) => {
                 return {
                     psgc_code: filtered.psgc_code,
@@ -87,4 +153,4 @@ const barangays = async (code) => {
     }
 };
 
-module.exports = { regions, provinces, cities, barangays };
+module.exports = { regions, regionByCode, provinces, provincesByCode, provinceByName, cities, barangays };
