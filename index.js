@@ -63,7 +63,15 @@ const provinces = async (code) => {
 const provincesByCode = async (code) => {
     try {
         const provinces = await fetch('province');
-        return provinces.data.find( ({region_code}) => region_code === code)
+        return provinces.data.filter(province => province.region_code === code)
+            .map((filtered) => {
+                return {
+                    psgc_code: filtered.psgc_code,
+                    province_name: filtered.province_name,
+                    province_code: filtered.province_code,
+                    region_code: filtered.region_code
+                };
+            });
     } catch (e) {
         return e.message;
     }
