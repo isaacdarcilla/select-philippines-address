@@ -29,7 +29,7 @@ const regions = async () => {
 const regionByCode = async (code) => {
     try {
         const regions = await fetch('region');
-        return regions.data.find( ({region}) => region.region_code === code)
+        return regions.data.find( ({region_code}) => region_code === code)
     } catch (e) {
         return e.message;
     }
@@ -63,7 +63,7 @@ const provinces = async (code) => {
 const provincesByCode = async (code) => {
     try {
         const provinces = await fetch('province');
-        return provinces.data.find( ({province}) => province.region_code === code)
+        return provinces.data.find( ({region_code}) => region_code === code)
     } catch (e) {
         return e.message;
     }
@@ -76,7 +76,7 @@ const provincesByCode = async (code) => {
 const provinceByName = async (name) => {
     try {
         const provinces = await fetch('province');
-        return provinces.data.find( ({province}) => province.province_name === name)
+        return provinces.data.find( ({province_name}) => province_name === name)
     } catch (e) {
         return e.message;
     }
