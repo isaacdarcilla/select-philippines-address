@@ -38,7 +38,7 @@ import {
 
 regions().then((region) => console.log(region));
 regionByCode("01").then((region) => console.log(region.region_name));
-provinces("01").then((province) => console.log(province)); //Default
+provinces("01").then((province) => console.log(province));
 provincesByCode("01").then((province) => console.log(province));
 provinceByName("Rizal").then((province) => console.log(province.province_code));
 cities("0128").then((city) => console.log(city));
