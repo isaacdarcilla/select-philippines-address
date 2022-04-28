@@ -71,7 +71,7 @@ https://www.npmjs.com/package/select-philippines-address
 
 -   [React JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/react)
 -   [Vue JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/vue)
--   [Svelte JS (WIP)]()
+-   [Svelte JS (WIP)](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/vue)
 
 **Please fork or star for support.**
 
