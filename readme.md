@@ -7,7 +7,7 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) [![npm version](https://badge.fury.io/js/select-philippines-address.svg)](https://badge.fury.io/js/select-philippines-address) [![codecov](https://codecov.io/gh/nodejs/undici/branch/main/graph/badge.svg?token=yZL6LtXkOA)](https://codecov.io/gh/nodejs/undici)
 
 ```diff
-- ✨ Demo Deployed with Vercel
+- ✨ Demo Deployed at Vercel
 ```
 
 > React JS
