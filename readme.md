@@ -1,6 +1,6 @@
 <p align="center"><img src="https://pngimage.net/wp-content/uploads/2018/06/philippine-flag-icon-png-5.png" width="200"></p>
 
-## **select-philippines-address@1.0.5**
+## **select-philippines-address@1.0.6**
 
 `Select addresses in the Philippines using HTML select base on address codes`
 
