@@ -83,7 +83,7 @@ https://www.npmjs.com/package/select-philippines-address
 
 [Apache-2.0](https://github.com/isaacdarcilla/select-philippines-address/blob/master/LICENSE)
 
-### 🚀 Developers
+### 🚀 Contributors
 
 [Isaac Arcilla](https://facebook.com/isaacdarcilla)
 []()
