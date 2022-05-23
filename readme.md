@@ -81,5 +81,5 @@ https://www.npmjs.com/package/select-philippines-address
 
 ### 🚀 Contributors
 
-[Isaac Arcilla](https://facebook.com/isaacdarcilla)
+[Isaac Arcilla](https://facebook.com/isaacdarcilla)<br>
 [LA Colinares](https://github.com/la-colinares)
