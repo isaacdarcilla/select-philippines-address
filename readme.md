@@ -63,7 +63,7 @@ barangays("052011").then((barangays) => console.log(barangays));
 
 ![](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/react/screenshot/img.png)
 
-### 🚀 NPM Link
+### 🔗 NPM Link
 
 https://www.npmjs.com/package/select-philippines-address
 
@@ -75,10 +75,6 @@ https://www.npmjs.com/package/select-philippines-address
 
 **Please fork or star for support.**
 
-### 🔗 API.
-
-[Philippines Addresses API](https://isaacdarcilla.github.io/philippine-addresses/)
-
 ### 🔖 License
 
 [Apache-2.0](https://github.com/isaacdarcilla/select-philippines-address/blob/master/LICENSE)
@@ -86,4 +82,4 @@ https://www.npmjs.com/package/select-philippines-address
 ### 🚀 Contributors
 
 [Isaac Arcilla](https://facebook.com/isaacdarcilla)
-[]()
+[LA Colinares](https://github.com/la-colinares)
