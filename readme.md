@@ -54,7 +54,7 @@ barangays("052011").then((barangays) => console.log(barangays));
 -   `barangays()` - has 1 parameter city_code which returns barangays in that city.
 
 ```diff
-- ✨ Screenshot
+- ✨ Screenshots
 ```
 
 | React JS                                                                                                  | Vue JS                                                                                       |
