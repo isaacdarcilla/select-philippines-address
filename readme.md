@@ -1,14 +1,10 @@
-<p align="center"><img src="https://pngimage.net/wp-content/uploads/2018/06/philippine-flag-icon-png-5.png" width="200"></p>
+## select-philippines-address@1.0.6
 
-## **select-philippines-address@1.0.6**
-
-`Select addresses in the Philippines using HTML select base on address codes.`
+Promised-based select addresses in the Philippines using HTML select tag base on address codes or location name.
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) [![npm version](https://badge.fury.io/js/select-philippines-address.svg)](https://badge.fury.io/js/select-philippines-address) [![codecov](https://codecov.io/gh/nodejs/undici/branch/main/graph/badge.svg?token=yZL6LtXkOA)](https://codecov.io/gh/nodejs/undici)
 
-```diff
-- ✨ Demo Deployed at Vercel
-```
+### Demos
 
 > React JS
 
@@ -18,23 +14,16 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://select-philippines-address-vue.vercel.app/)
 
-```diff
-- ✨ Installation
+### Installation
+
+```
+npm i select-philippines-address --save
 ```
 
-> **npm i select-philippines-address --save**
-
-```diff
-- ✨ Usage
-```
+### Usage
 
 ```js
-import {
-    regions,
-    provinces,
-    cities,
-    barangays,
-} from "select-philippines-address";
+import { regions, provinces, cities, barangays, regionByCode, provincesByCode, provinceByName } from "select-philippines-address";
 
 regions().then((region) => console.log(region));
 regionByCode("01").then((region) => console.log(region.region_name));
@@ -45,15 +34,20 @@ cities("0128").then((city) => console.log(city));
 barangays("052011").then((barangays) => console.log(barangays));
 ```
 
--   `regions()` - has no parameter which returns all regions.
--   `regionByCode()` - has 1 parameter region_code which returns a region.
--   `provinces()` - has 1 parameter region_code which returns provinces in that region.
--   `provincesByCode()` - has 1 parameter region_code which returns provinces in that region.
--   `provinceByName()` - has 1 parameter province_name which returns province.
--   `cities()` - has 1 parameter province_code which returns cities in that province.
--   `barangays()` - has 1 parameter city_code which returns barangays in that city.
+### Description
 
-```diff
+| Function           | Parameters                   | Description                                        |
+|--------------------|------------------------------|----------------------------------------------------|
+| `regions()`        | None                         | Returns all regions.                               |
+| `regionByCode()`   | `region_code`                | Returns a region by its code.                      |
+| `provinces()`      | `region_code`                | Returns provinces in the specified region.         |
+| `provincesByCode()`| `region_code`                | Returns provinces in the specified region.         |
+| `provinceByName()` | `province_name`              | Returns a province by its name.                    |
+| `cities()`         | `province_code`              | Returns cities in the specified province.         |
+| `barangays()`      | `city_code`                  | Returns barangays in the specified city.           |
+
+
+<!---```diff
 - ✨ Screenshots
 ```
 
@@ -62,24 +56,19 @@ barangays("052011").then((barangays) => console.log(barangays));
 | ![App](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/react/screenshot/1.PNG) | ![App](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/vue/2.PNG) |
 
 ![](https://github.com/isaacdarcilla/select-philippines-address/blob/main/demo/react/screenshot/img.png)
+--->
 
-### 🔗 NPM Link
-
-https://www.npmjs.com/package/select-philippines-address
-
-### 👨‍💻 Source Code.
+### Demo Source Code
 
 -   [React JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/react)
 -   [Vue JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/vue)
 -   [Svelte JS (WIP)](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/vue)
 
-**Please fork or star for support**
-
-### 🔖 License
+###  License
 
 [Apache-2.0](https://github.com/isaacdarcilla/select-philippines-address/blob/master/LICENSE)
 
-### 🚀 Contributors
+### Contributors
 
-[Isaac Arcilla](https://facebook.com/isaacdarcilla)<br>
-[LA Colinares](https://github.com/la-colinares)
+- [Isaac Arcilla](https://facebook.com/isaacdarcilla)<br>
+- [LA Colinares](https://github.com/la-colinares)
