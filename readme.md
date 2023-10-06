@@ -62,7 +62,6 @@ barangays("052011").then((barangays) => console.log(barangays));
 
 -   [React JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/react)
 -   [Vue JS](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/vue)
--   [Svelte JS (WIP)](https://github.com/isaacdarcilla/select-philippines-address/tree/main/demo/vue)
 
 ###  License
 
