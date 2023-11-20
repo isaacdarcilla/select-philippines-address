@@ -21,7 +21,7 @@
   "author": "Isaac D. Arcilla <isaacdarcilla@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "read-file": "^0.2.0"
   },
   "devDependencies": {}
